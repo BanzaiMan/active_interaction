@@ -1,4 +1,7 @@
 language: ruby
 
+before_script:
+  - gem update bundler
+
 rvm:
 - rbx-2
