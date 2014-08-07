@@ -6,5 +6,8 @@ before_install:
   - cat *.gemspec
   - bundle env
 
+install:
+  - bundle install --retry=3
+  
 rvm:
 - rbx-2
