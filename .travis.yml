@@ -7,7 +7,7 @@ before_install:
   - bundle env
 
 install:
-  - bundle install --retry=3
+  - bundle install --jobs=1 --retry=3
   
 rvm:
 - rbx-2
